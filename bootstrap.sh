@@ -1,0 +1,1 @@
+home/bin/bootstrap-dotfiles.sh

@@ -1,0 +1,9 @@
+repo=dotfiles-apps
+repo=dotfiles-awesome
+repo=dotfiles-fortune-bible
+repo=dotfiles-task
+repo=dotfiles-tmux
+repo=dotfiles-vim
+repo=dotfiles-zsh
+repo=homeshick
+serial=False
