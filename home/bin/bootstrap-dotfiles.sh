@@ -1,5 +1,5 @@
-#!/bin/sh
-reposhome=~/.homesick/repos
+#!/bin/bash
+reposhome=$HOME/.homesick/repos
 
 git clone https://github.com/andsens/homeshick $reposhome/homeshick
 
@@ -7,7 +7,7 @@ repos="dotfiles-gh dotfiles-apps dotfiles-awesome dotfiles-fortune-bible dotfile
 
 for repo in $repos
 do
-    git clone https://github.com/vonpupp/$repo $reposhome/$repo
+    git clone https://vonpupp@github.com/vonpupp/$repo $reposhome/$repo
 done
 
 ln -sf ~/.homesick/repos/dotfiles-gh/.mu_repo ~/.homesick/repos/.mu_repo
