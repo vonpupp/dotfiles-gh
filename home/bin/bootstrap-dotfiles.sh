@@ -3,7 +3,7 @@ reposhome=$HOME/.homesick/repos
 
 git clone https://github.com/andsens/homeshick $reposhome/homeshick
 
-repos="dotfiles-gh dotfiles-apps dotfiles-awesome dotfiles-fortune-bible dotfiles-task dotfiles-tmux dotfiles-vim dotfiles-zsh hydesite ansible-personal"
+repos="dotfiles-gh dotfiles-apps dotfiles-awesome4 dotfiles-fortune-bible dotfiles-task dotfiles-tmux dotfiles-vim dotfiles-spacemacs dotfiles-zsh hydesite ansible-personal"
 
 for repo in $repos
 do
