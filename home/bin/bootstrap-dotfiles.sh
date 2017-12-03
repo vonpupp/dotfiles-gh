@@ -7,7 +7,7 @@ repos="dotfiles-gh dotfiles-apps dotfiles-awesome dotfiles-fortune-bible dotfile
 
 for repo in $repos
 do
-    git clone https://vonpupp@github.com/vonpupp/$repo $reposhome/$repo
+    git clone git@github.com:vonpupp/$repo $reposhome/$repo
 done
 
 ln -sf ~/.homesick/repos/dotfiles-gh/.mu_repo ~/.homesick/repos/.mu_repo
