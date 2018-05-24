@@ -1,9 +1,9 @@
-#!/bin/sh
-reposhome=~/.homesick/repos
+#!/bin/bash
+reposhome=$HOME/.homesick/repos
 
 git clone git@github.com:andsens/homeshick $reposhome/homeshick
 
-repos="dotfiles-gh dotfiles-apps dotfiles-awesome dotfiles-fortune-bible dotfiles-task dotfiles-tmux dotfiles-vim dotfiles-zsh"
+repos="dotfiles-gh dotfiles-apps dotfiles-awesome4 dotfiles-fortune-bible dotfiles-task dotfiles-tmux dotfiles-vim dotfiles-spacemacs dotfiles-zsh hydesite ansible-personal"
 
 for repo in $repos
 do
